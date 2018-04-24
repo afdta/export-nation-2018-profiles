@@ -104,13 +104,18 @@ function exportNationProfiles(){
 		}
 	});
 
-	select.addEventListener("focus", function(){
-		gobutton.style = "visibility:hidden";
-	})
+	//select.addEventListener("focus", function(){
+	//	gobutton.style = "visibility:hidden";
+	//});
 
-	select.addEventListener("blur", function(){
-		gobutton.style = "visibility:visible";
-	})
+	//select.addEventListener("blur", function(){
+	//	gobutton.style = "visibility:visible";
+	//});
+
+	//select.addEventListener("mouseout", function(){
+	//	select.blur();
+		//mouseout fires incorrectly in FF
+	//})
 
 }
 
