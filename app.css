@@ -1,0 +1,95 @@
+#export-nation-profiles *{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#export-nation-profiles .select-wrap{
+	max-width:600px;
+	width:100%;
+}
+
+#export-nation-profiles select{
+	
+	height:40px;
+	padding:0px 5px 0px 5px;
+	margin:0px 5px 0px 5px;
+
+	font-weight:bold;
+
+	float:left;
+	font-size:18px;
+	font-family:Arial, sans;
+	display:block;
+}
+
+#export-nation-profiles .go-button{
+	
+	height:40px; 
+	border:1px solid #dc2a2a;
+	padding:0px 10px;
+	margin:0px 5px 5px 5px;
+	
+	min-width:50px; 
+
+	background-color:#dc2a2a; 
+	border-radius:5px;
+
+	float:left;
+}
+
+#export-nation-profiles .go-button p{
+	font-size:18px;
+	font-family:Arial, sans;
+	margin:0em;
+	color:#ffffff;
+}
+
+#export-nation-profiles .go-button a{
+	line-height:38px;
+	vertical-align:middle;
+	color:#ffffff;
+}
+
+#export-nation-profiles .go-button a span{
+	color:#ffffff;
+}
+
+.c-fix:after {
+	clear:both;
+	content:"";
+	display:table;
+}
+
+
+@media (min-width:0px){
+	#export-nation-profiles select{
+		width:98%;
+		width:calc(100% - 10px);
+	}
+
+	#export-nation-profiles .go-button{
+		width:98%;
+		width:calc(100% - 10px);
+	}
+
+	#export-nation-profiles .go-button p{
+		text-align:left;
+	}
+}
+
+@media (min-width:980px){
+	#export-nation-profiles select{
+		width:48%;
+		width:calc(50% - 10px);
+	}
+
+	#export-nation-profiles .go-button{
+		width:48%;
+		width:calc(50% - 10px);
+	}
+
+	#export-nation-profiles .go-button p{
+		text-align:center;
+	}
+}
