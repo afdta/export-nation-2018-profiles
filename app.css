@@ -7,13 +7,15 @@
 #export-nation-profiles .select-wrap{
 	max-width:600px;
 	width:100%;
+	background-color:#dddddd;
+	padding:1rem 0.5rem;
 }
 
 #export-nation-profiles select{
 	
 	height:40px;
 	padding:0px 5px 0px 5px;
-	margin:0px 5px 0px 5px;
+	margin:0px 5px 5px 5px;
 
 	font-weight:bold;
 
@@ -21,6 +23,14 @@
 	font-size:18px;
 	font-family:Arial, sans;
 	display:block;
+}
+
+#export-nation-profiles .profiles-title{
+	margin:1rem 1rem 5px 0.5rem;
+}
+
+#export-nation-profiles .profiles-title strong{
+	margin-left:5px;
 }
 
 #export-nation-profiles .go-button{
