@@ -93,7 +93,6 @@ function exportNationProfiles(){
 		if(val !== "NA"){
 			//window.open(val, "_blank");
 			profile_link.setAttribute("href", val);
-			gobutton.style = "visibility:visible";
 			
 			try{
 				profile_link.click();
@@ -105,8 +104,12 @@ function exportNationProfiles(){
 		}
 	});
 
-	select.addEventListener("mousedown", function(){
+	select.addEventListener("focus", function(){
 		gobutton.style = "visibility:hidden";
+	})
+
+	select.addEventListener("blur", function(){
+		gobutton.style = "visibility:visible";
 	})
 
 }
